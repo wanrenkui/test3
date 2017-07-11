@@ -50,6 +50,7 @@ class User
             include "Views/list-view.html.php";
         }else{
             $id = $_GET['id'];
+
             $user = $this->getUserModal()->getUserById($id);
 
             include "Views/edit-view.html.php";
