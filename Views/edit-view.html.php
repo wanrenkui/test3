@@ -4,13 +4,8 @@
     <meta charset="UTF-8">
 </head>
     <?php
-    include "UserManager.php";
 
-    $modifyId = $_REQUEST['id'];
-    $userManager = new UserManager();
-    $user = $userManager->getUserById($modifyId);
-
-    echo "<form action='modify.php' method='get'>";
+    echo "<form action='../index.php?controller=user&action=modify' method='get'>";
     echo "<label for='username'>姓名：</label>";
     echo "<input id='username' name='username' value='$user[name]' onkeyup=\"value=value.replace(/[|]/g,'')\"></br>";
     echo "<label>性别：</label>";

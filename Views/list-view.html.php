@@ -15,13 +15,7 @@
             <th width="20%">操作</th>
         </tr>
         <?php
-            include "UserManager.php";
 
-            $delUser = 'del-user.php';
-            $modifyUser = 'modify-user.php';
-            $userManager = new UserManager();
-            $users = $userManager->listUsers();
-            
             foreach ($users as $user) {
                 if (empty($user['id'])){
                     continue;
@@ -31,15 +25,15 @@
                     echo "<td>$user[gender]</td>";
                     echo "<td>$user[age]</td>";
                     echo "<td>$user[info]</td>";
-                    echo "<td><a href =".$delUser."?id=".$user['id'].">删除</a>";
+                    echo "<td><a href ='index.php?controller=user&action=del&id=$user[id]'>删除</a>";
                     echo "|";
-                    echo "<a href =".$modifyUser."?id=".$user['id'].">修改</a></td>";
+                    echo "<a href ='index.php?controller=user&action=modify&id=$user[id]'>修改</a></td>";
                     echo "</tr>";
                 }
-            }            
+            }
         ?>
     </table>
-    <a href="index.html">新增用户</a></body>
+    <a href="index.php?controller=user&action=add">新增用户</a></body>
 </body>
 
 </html>

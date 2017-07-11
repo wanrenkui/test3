@@ -1,28 +1,29 @@
 <?php
 
-include "pdoObject.php";
-
-class UserManager
+class Users
 {
-	public function listUsers()
-	{
-	    $pdoObject = new pdoObject();
+    private $pdo;
 
-		$sql = 'SELECT * FROM users';
-		$stmt = $pdoObject ->DB() ->prepare($sql);
-		$stmt ->execute();
+    public function __construct($pdo)
+    {
+        $this->pdo = $pdo;
+    }
+
+    public function listUsers()
+    {
+        $sql = 'SELECT * FROM users';
+        $stmt = $this ->pdo ->DB() ->prepare($sql);
+        $stmt ->execute();
 
         $users = $stmt ->fetchAll();
 
         return $users;
-	}
+    }
 
-	public function addUser($user)
-	{
-        $pdoObject = new pdoObject();
-
+    public function addUser($user)
+    {
         $sql = 'INSERT INTO users (name, gender, age, info) VALUES (?,?,?,?)';
-        $stmt = $pdoObject ->DB() ->prepare($sql);
+        $stmt = $this ->pdo ->DB() ->prepare($sql);
         $stmt -> execute(
             array(
                 $user['username'],
@@ -32,14 +33,12 @@ class UserManager
             )
         );
 
-	}
+    }
 
-	public function modifyUser($modifyUser)
+    public function modifyUser($modifyUser)
     {
-        $pdoObject = new pdoObject();
-
         $sql = 'UPDATE users SET name= ?, gender= ?, age = ?, info= ? WHERE id= ?';
-        $stmt = $pdoObject ->DB() ->prepare($sql);
+        $stmt = $this ->pdo ->DB() ->prepare($sql);
         $stmt -> execute(
             array(
                 $modifyUser['username'],
@@ -52,28 +51,22 @@ class UserManager
 
     }
 
-	public function delUser($delUserId)
-	{
-        $pdoObject = new pdoObject();
-
+    public function delUser($delUserId)
+    {
         $sql = 'DELETE FROM users WHERE id= ?';
-        $stmt = $pdoObject -> DB() ->prepare($sql);
+        $stmt = $this ->pdo -> DB() ->prepare($sql);
         $stmt -> execute(array($delUserId));
 
-	}
+    }
 
-	public function getUserById($id)
-	{
-        $pdoObject = new pdoObject();
-
+    public function getUserById($id)
+    {
         $sql = 'SELECT * FROM users WHERE id= ?';
-        $stmt = $pdoObject ->DB() ->prepare($sql);
+        $stmt = $this ->pdo ->DB() ->prepare($sql);
         $stmt -> execute(array($id));
 
         $users = $stmt ->fetch();
 
         return $users;
-	}
+    }
 }
-
-?>

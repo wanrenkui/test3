@@ -7,8 +7,8 @@
     <meta name="description" content="网站描述，字数尽量空制在80个汉字，160个字符以内！">
 </head>
 <body>
-<a href="list-user.php">查看用户</a>
-<form action="add-user.php" method="get">
+<a href="../index.php?controller=user&action=list">查看用户</a>
+<form action="../index.php?controller=user&action=add" method="POST">
     <label for="username">姓名:</label>
     <input id="username" name="username" placeholder="请输入姓名" onkeyup="value=value.replace(/[|]/g,'')">
     <br>
