@@ -2,69 +2,67 @@
 
 namespace Controller;
 
-use Modal_s\UserManager;
+use Modal\Service\UserService;
 
-//include "pdoObject.php";
-//include "Modal/user-modal.php";
 
-class User
+class UserController
 {
     public function listAction()
     {
-        $users = $this->getUserModal()->listUsers();
+        $users = $this->getUserService()->listUsers();
 
         include "Views/list-view.html.php";
     }
 
-    public function addAction()
+//    public function addAction()
+//    {
+//        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+//            $condition = $_POST;
+//
+//            $this->getUserService()->addUser($condition);
+//
+//            $users = $this->getUserService()->listUsers();
+//
+//            include "Views/list-view.html.php";
+//
+//        } else {
+//            header('Location: Views/add-view.html.php');
+//        }
+//    }
+//
+//    public function delAction()
+//    {
+//        $id =$_REQUEST['id'];
+//
+//        $this->getUserService()->delUser($id);
+//
+//        $users = $this->getUserService()->listUsers();
+//
+//        include "Views/list-view.html.php";
+//    }
+//
+//    public function modifyAction()
+//    {
+//        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+//            $condition = $_POST;
+//            $this->getUserService()->modifyUser($condition);
+//
+//            $users = $this->getUserService()->listUsers();
+//
+//            include "Views/list-view.html.php";
+//        }else{
+//            $id = $_GET['id'];
+//
+//            $user = $this->getUserService()->getUserById($id);
+//
+//            include "Views/edit-view.html.php";
+//        }
+//    }
+
+    private function getUserService()
     {
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $condition = $_POST;
-
-            $this->getUserModal()->addUser($condition);
-
-            $users = $this->getUserModal()->listUsers();
-
-            include "Views/list-view.html.php";
-
-        } else {
-            header('Location: Views/add-view.html.php');
-        }
-    }
-
-    public function delAction()
-    {
-        $id =$_REQUEST['id'];
-
-        $this->getUserModal()->delUser($id);
-
-        $users = $this->getUserModal()->listUsers();
-
-        include "Views/list-view.html.php";
-    }
-
-    public function modifyAction()
-    {
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            $condition = $_POST;
-            $this->getUserModal()->modifyUser($condition);
-
-            $users = $this->getUserModal()->listUsers();
-
-            include "Views/list-view.html.php";
-        }else{
-            $id = $_GET['id'];
-
-            $user = $this->getUserModal()->getUserById($id);
-
-            include "Views/edit-view.html.php";
-        }
-    }
-
-    private function getUserModal()
-    {
-        $userModal = new UserManager();
-        return $userModal;
+        $userService = new UserService();
+        return $userService;
     }
 }
 

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5eb46d0-c4d5-4979-8bab-dec7bd9f7e60" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modal/Modal/UserModal.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modal/Modal/UserModal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modal/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modal/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modal/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modal/Service/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdoObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdoObject.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
+  <component name="ProjectId" id="1jk5C4o5TC0SUWASn6YQiMVPek8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Modal" />
+      <recent name="$PROJECT_DIR$/Controller" />
+      <recent name="$PROJECT_DIR$/Views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Modal/modal" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercise-1/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5eb46d0-c4d5-4979-8bab-dec7bd9f7e60" name="Default" comment="" />
+      <created>1494659357144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494659357144</updated>
+      <workItem from="1494659358815" duration="2574000" />
+      <workItem from="1494662244366" duration="2581000" />
+      <workItem from="1494665144494" duration="1562000" />
+      <workItem from="1499663008709" duration="17897000" />
+      <workItem from="1499693581108" duration="258000" />
+      <workItem from="1499695164972" duration="2137000" />
+      <workItem from="1499733836760" duration="13125000" />
+      <workItem from="1499752748610" duration="20194000" />
+      <workItem from="1499823243982" duration="32000" />
+      <workItem from="1499823287225" duration="49000" />
+      <workItem from="1499826247186" duration="60000" />
+      <workItem from="1499828575125" duration="1199000" />
+      <workItem from="1499842749633" duration="183000" />
+      <workItem from="1499858518340" duration="575000" />
+      <workItem from="1499862010280" duration="13000" />
+      <workItem from="1499953326212" duration="468000" />
+      <workItem from="1543915519215" duration="6052000" />
+      <workItem from="1543973579325" duration="71000" />
+      <workItem from="1543977521872" duration="1934000" />
+      <workItem from="1543980120524" duration="169000" />
+      <workItem from="1544337208993" duration="594000" />
+      <workItem from="1544447711367" duration="690000" />
+      <workItem from="1544670879369" duration="17000" />
+      <workItem from="1604335119723" duration="9322000" />
+      <workItem from="1605494065575" duration="189000" />
+      <workItem from="1605674650795" duration="26000" />
+      <workItem from="1605679688349" duration="122000" />
+      <workItem from="1605679841860" duration="426000" />
+      <workItem from="1605680409871" duration="52000" />
+      <workItem from="1605680774694" duration="103000" />
+      <workItem from="1605680940941" duration="99000" />
+      <workItem from="1605681091502" duration="15000" />
+      <workItem from="1605693896074" duration="6066000" />
+      <workItem from="1605782540262" duration="1532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="258" key="NewPhpClassDialog" timestamp="1605097509415">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="580" y="258" key="NewPhpClassDialog/0.0.1680.1050/-97.-1080.1920.1080@0.0.1680.1050" timestamp="1605097509415" />
+    <state x="659" y="455" key="NewPhpFileDialog" timestamp="1605097542670">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="659" y="455" key="NewPhpFileDialog/0.0.1680.1050/-97.-1080.1920.1080@0.0.1680.1050" timestamp="1605097542670" />
+    <state x="505" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1605781304215">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="505" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1605781304215" />
+  </component>
+</project>
