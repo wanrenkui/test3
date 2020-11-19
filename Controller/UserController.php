@@ -1,7 +1,11 @@
 <?php
 
-include "pdoObject.php";
-include "Modal/user-modal.php";
+namespace Controller;
+
+use Modal_s\UserManager;
+
+//include "pdoObject.php";
+//include "Modal/user-modal.php";
 
 class User
 {
@@ -59,10 +63,7 @@ class User
 
     private function getUserModal()
     {
-        $pdo = new pdoObject();
-
-        $userModal = new Users($pdo);
-
+        $userModal = new UserManager();
         return $userModal;
     }
 }
